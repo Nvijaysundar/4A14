@@ -1,10 +1,11 @@
 package p2;
-
+import p1.InpOut;
+import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	InpOut ob = new InpOut();
+	ob.getData();
+	System.out.println(ob.toString());
 	}
-
 }

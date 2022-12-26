@@ -3,13 +3,13 @@ package p1;
 public class Employee {
 	String Name,Desg;
 	float Bsal;
-	public void SetData(String Name,String Desg,float Bsal)
+	Employee(String Name,String Desg,float Bsal)
 	{
 		this.Name = Name;
 		this.Desg = Desg;
 		this.Bsal = Bsal;
 	}
-	public void GetData()
+	void GetData()
 	{
 		System.out.println("Name: "+Name);
 		System.out.println("Desg: "+Desg);
