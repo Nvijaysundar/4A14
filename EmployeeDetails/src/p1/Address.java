@@ -1,6 +1,6 @@
 package p1;
 
-public class Address {
+	class Address {
 	String Hno,Stname,City;
 	int pincode;
 	Address(String Hno,String Stname,String City,

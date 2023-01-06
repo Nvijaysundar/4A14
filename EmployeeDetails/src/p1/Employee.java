@@ -1,6 +1,6 @@
 package p1;
 
-public class Employee {
+class Employee {
 	String Name,Desg;
 	float Bsal;
 	Employee(String Name,String Desg,float Bsal)
